@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma me CSS</title>
+    <style>
+        /* Stilizimi i dokumentit (embedded CSS) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        /* Stilizimi i elementeve te div (embedded CSS) */
+        div {
+            margin-bottom: 10px;
+        }
+
+        /* Stilizimi i elementeve te input (inline CSS) */
+        input {
+            padding: 5px;
+            margin: 5px 0;
+        }
+
+        /* Stilizimi i radio dhe checkbox (inline CSS) */
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        /* Stilizimi i submit dhe reset buttons (inline CSS) */
+        .buttons{
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        .buttons:hover{
+          background-color: white;
+          color:green;
+          cursor:pointer;
+          opacity:5.0s;
+        }
+        .buttons:active{
+          background-color: green;
+          color:white;
+        }
+
+        /* Stilizimi i dropdown (inline CSS) */
+        select {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+  <div>
+    <label for="textbox1">Textbox 1: </label>
+    <input type="text" id="textbox1" name="textbox1">
+  </div><br>
+  <div>
+    <label for="textbox2">Textbox 2: </label>
+    <input type="text" id="textbox2" name="textbox2">
+  </div> <br>
+  <div>
+    <label for="textbox3">Textbox 3: </label>
+    <input type="text" id="textbox3" name="textbox3">
+  </div> <br>
+  <div>
+    <label for="textbox4">Textbox 4: </label>
+    <input type="text" id="textbox4" name="textbox4">
+  </div> <br>
+  <div>
+    <label for="radio-buttons">Radio Buttons:</label><br>
+    <input type="radio" name="radio-buttons" id="option1">
+    <label for="option1">Option 1</label><br>
+  </div>
+  <div>
+    <input type="radio" name="radio-buttons" id="option2">
+    <label for="option2">Option 2</label>
+  </div>
+  <div>
+    <input type="radio" name="radio-buttons" id="option3">
+    <label for="option3">Option 3</label>
+  </div>
+  <div>
+    <input type="radio" name="radio-buttons" id="option4">
+    <label for="option4">Option 4</label>
+  </div><br>
+  <div>
+    <label for="checkbox">Checkbox Group:</label>
+  </div>
+  <div>
+    <input type="checkbox" name="checbox1" id="checkbox1">
+    <label for="checkbox1">Checkbox 1</label>
+   </div>
+   <div>
+    <input type="checkbox" name="checkbox2" id="checkbox2">
+    <label for="checkbox2">Checkbox 2</label>
+   </div>
+   <div>
+    <input type="checkbox" name="checkbox3" id="checkbox3">
+    <label for="checkbox3">Checkbox 3</label>
+   </div>
+   <div>
+    <input type="checkbox" name="checkbox4" id="checkbox4">
+    <label for="checkbox4">Checkbox 4</label>
+   </div>
+   <div><br>
+     <label for="dropdown">Dropdown: </label>
+     <select>
+       <option value="option1">Option 1</option>
+       <option value="option2" selected>Option 2</option>
+       <option value="option3">Option 3</option>
+       <option value="option4" disabled>Option 4</option>
+     </select>
+   </div><br>
+   <div>
+    <button class="buttons">Submit</button>
+    <button class="buttons">Reset</button>
+   </div><br>
+</body>
+</html>

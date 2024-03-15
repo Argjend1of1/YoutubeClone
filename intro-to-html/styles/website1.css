@@ -1,0 +1,41 @@
+.link{
+    background-color:none;
+    color: rgb(0, 113, 133);
+  }
+  .type{
+    font-size:40px;
+    color:black;
+    font-weight:bold ;
+    height:40px; 
+    
+  }
+  .amount{
+    color:rgb(0, 118, 0);
+    font-size:20px;
+    font-weight:bold;
+  }
+  .delivery{
+    font-style:bold;
+    font-size:25px;
+  }
+  .cart{
+    background-color:rgb(255, 216,20);
+    font-style:bold;
+    font-size:20px;
+    cursor:pointer;
+    border:none;
+    height: 40px;
+    width: 170px;
+    border-radius:20px;
+  }
+  .buy{
+    background-color:rgb(255, 164,28);
+    font-style:bold;
+    font-size:20px;
+    cursor:pointer;
+    border:none;
+    height: 40px;
+    width: 170px;
+    border-radius:20px;
+    margin-left:8px;
+  }

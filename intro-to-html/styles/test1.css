@@ -1,0 +1,53 @@
+.Danger{
+   margin-top: 5px;
+   background-color: white;
+   color:blue;
+   border-color:rgb(13, 110, 253);
+   border-radius: 6px;
+   padding-top:6px;
+   padding-left:12px;
+   padding-right: 12px;
+   padding-bottom: 6px;
+   font-weight: 400px;
+   font-size:1rem;
+   line-height:1.5;
+   border-width: 1px;   
+   width:90px;
+}
+.Danger:hover{
+   cursor:pointer;
+   background-color: rgb(13, 110, 253);
+   color:white;
+   transition:opacity 0.2s, color 0.2s;
+   
+}
+.Danger:active{
+   background-color: white;
+   color:rgb(13, 110, 253);
+
+}
+.Success{
+  background-color: #198754;
+  color:#fff;
+  padding-top:6px;
+  padding-left:12px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  border-color:#198754;
+  border-radius:6px ;
+  font-weight: 400px;
+  font-size:1rem;
+  line-height:1.5;
+  width:90px;
+
+}
+.Success:hover{
+   background-color: #146c43;
+   cursor:pointer;
+   transition:opacity 0.5, color 0.5;
+}
+.Success:active{
+    background-color:rgb(6, 101, 6);
+    color:rgb(255, 255, 255);
+    opacity:3s;
+}

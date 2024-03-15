@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Form of elements</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <form action="/lists.html">
+      <label for="username">Username: </label> 
+      <input type="text" id="username" placeholder="Enter Username..." required><br>
+      <label for="password">Password: </label> 
+      <input type="password" name="pass" id="password" placeholder="Enter your password..."required><br>
+      <label for="email">Email: </label>
+      <input type="email" id="email" value="@gmail.com" required><br>
+      <label for="Number">Number: </label>
+      <input type="number" name="num" id="Number"><br>
+      <label for="Nota">Zgjedhe Noten: </label>
+      <input type="range" name="range" min="5" max="10" value="8"><br>
+      <label for="Color">Pick a color: </label>
+      <input type="color" name="color" id="Color"><br>
+      <label for="gjinia">Zgjedhni gjinine: </label><br>
+      <input type="radio" name="gjinia" id="female">
+      <label for="female">Female</label>
+      <input type="radio" name="gjinia" id="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gjinia" id="other">
+      <label for="other">other</label><br>
+      <label for="lendet">Zgjedhni lendet: </label><br>
+      <input type="radio" name="lenda" id="DB">
+      <label for="lenda">Database</label>
+      <input type="radio" name="lenda" id="Programimi ne Ueb 1">
+      <label for="lenda">Programimi ne Ueb 1</label>
+      <input type="radio" name="lenda" id="Programimi ne Ueb 2">
+      <label for="lenda">Programimi ne Ueb 2</label><br>
+      <select>
+        <option value="lenda 1">Lenda 1</option>
+        <option value="lenda 2" selected>Lenda 2</option>
+        <option value="lenda 3" disabled>Lenda 3</option>
+        <option value="lenda 4">Lenda 4</option>
+      </select><br>
+      <label for="Date">Date: </label>
+      <input type="date" name="data" id="Data"><br>
+      <label for="Kohe">Time: </label>
+      <input type="time" name="Kohe" id="Kohe"><br>
+      <label for="jave">Week: </label>\
+      <input type="week" name="jave" id="jave"><br>
+      <button>Submit</button>
+      <button>Reset</button>
+    </form>
+  </body>
+
+</html>
